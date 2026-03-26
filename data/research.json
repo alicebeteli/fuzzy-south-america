@@ -1,0 +1,77 @@
+{
+  "titulo": {
+    "tipo": "string",
+    "descricao": "Título da pesquisa, dissertação ou tese",
+    "valores_possiveis": "texto livre"
+  },
+  "palavras_chave": {
+    "tipo": "array",
+    "descricao": "Lista de palavras-chave associadas ao trabalho",
+    "valores_possiveis": "lista de strings"
+  },
+  "categoria": {
+    "tipo": "string",
+    "descricao": "Categoria geral do trabalho (ex: mestrado, doutorado, artigo)",
+    "valores_possiveis": ["mestrado", "doutorado", "artigo"]
+  },
+  "ano": {
+    "tipo": "integer",
+    "descricao": "Ano de publicação ou defesa",
+    "valores_possiveis": "ex: 2015–2026"
+  },
+  "resumo": {
+    "tipo": "string",
+    "descricao": "Resumo do trabalho acadêmico",
+    "valores_possiveis": "texto livre"
+  },
+  "area": {
+    "tipo": "string",
+    "descricao": "Área de conhecimento",
+    "valores_possiveis": ["IA", "Linguística", "Ciência da Computação", "Humanidades Digitais"]
+  },
+  "universidade": {
+    "tipo": "string",
+    "descricao": "Instituição onde a pesquisa foi realizada",
+    "valores_possiveis": "nomes de universidades"
+  },
+  "link": {
+    "tipo": "string",
+    "descricao": "URL para o trabalho ou repositório",
+    "valores_possiveis": "link válido"
+  },
+  "banco": {
+    "tipo": "string",
+    "descricao": "Dataset ou base de dados utilizada",
+    "valores_possiveis": "nomes de datasets ou 'não especificado'"
+  },
+  "algoritmo_ml": {
+    "tipo": "array",
+    "descricao": "Algoritmos de machine learning utilizados",
+    "valores_possiveis": ["SVM", "Random Forest", "Redes Neurais", "Transformers"]
+  },
+  "raciocinio_ontologico": {
+    "tipo": "boolean",
+    "descricao": "Indica se há uso de raciocínio ontológico",
+    "valores_possiveis": [true, false]
+  },
+  "tema_ia": {
+    "tipo": "string",
+    "descricao": "Tema principal dentro da IA",
+    "valores_possiveis": ["NLP", "Visão Computacional", "Sistemas Especialistas", "Robótica"]
+  },
+  "aplicacao_tema": {
+    "tipo": "string",
+    "descricao": "Aplicação prática do tema de IA",
+    "valores_possiveis": "ex: saúde, educação, indústria, análise de discurso"
+  },
+  "uso_rn": {
+    "tipo": "boolean",
+    "descricao": "Indica se o trabalho utiliza redes neurais",
+    "valores_possiveis": [true, false]
+  },
+  "tecnica_ml": {
+    "tipo": "string",
+    "descricao": "Tipo de abordagem de machine learning",
+    "valores_possiveis": ["supervisionado", "não supervisionado", "semi-supervisionado", "aprendizado por reforço"]
+  }
+}
